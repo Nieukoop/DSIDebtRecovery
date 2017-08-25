@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
 			$('#home').click(function(){
-				$('#main').load('dsi.html #jsContent');
+				$('#main').load('index.html #jsContent');
 			});
 })
 

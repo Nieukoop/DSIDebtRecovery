@@ -10,7 +10,7 @@
 		
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="dsi.css">
+		<link rel="stylesheet" href="myStyle.css">
 		
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -19,7 +19,9 @@
 		<script type="text/javascript" src="mailer.js"></script>
 		
     </head>
-		<div class="container">
+		
+    <body>
+    	<div class="container">
 		<div class="jumbotron">
 					<img id="mainlogo" class="img-circle" 
 					src="https://storage.googleapis.com/wzukusers/user-13663742/images/55798216a2f3cSUzuHOy/LogoColorNoText.jpeg" alt="DSI Logo">&nbsp;&nbsp;&nbsp;
@@ -42,48 +44,11 @@
 					</div>
 				</div>
 				<hr>
-    <body>
-    <script>
-    	function mail(){
-
-    var nodemailer = require('nodemailer');
-    var message = "This is the body of the message!";
-
-
-    var transporter = nodemailer.createTransport({
-      service: 'gmail',
-      auth: {
-        user: 'leroy.nieukoop@gmail.com',
-        pass: 'soljahkilla1'
-      }
-    });
-
-    var mailOptions = {
-      from: 'leroy@gmail.com',
-      to: 'leroy_nieukoop@hotmail.com',
-      subject: 'Sending Email using Node.js',
-      text: message
-    };
-
-    transporter.sendMail(mailOptions, function(error, info){
-      if (error) {
-        console.log(error);
-      } else {
-        console.log('Email sent: ' + info.response);
-      }
-    });
-
-}
-mail();
-    </script>
 		
 		<div id="main">
 			<div id="jsContent">
 			<div class="row">
-				<div class="col-xs-2">
-				
-				</div>
-				<div class="col-xs-8">
+				<div class="col-xs-12">
 					
 					<div id="myCarousel" class="carousel slide" data-ride="carousel">
 
@@ -129,9 +94,6 @@ mail();
 				</div>
 				</div>
 			</div>
-				<div class="col-xs-2">
-						
-				</div>
 			</div>
 			
 			<div id="bluerow" class="row">
@@ -174,9 +136,11 @@ mail();
 			</div>
 			</div>
 		</div>
-		
-		<footer>
 		<hr>
+		
+		</div>
+		<footer>
+		
 			<div  id="blueFootCol" class="row">
 				<div class="col-xs-4">
 					<p class="footerinfo"><span class="spanbold">Operating Hours</span><br>8.30am - 5.00pm<br>Mon - Fri</p>
@@ -196,7 +160,6 @@ mail();
 				</div>
 			</div>
 		</footer>
-	
 	</body>
-	</div>
+	
 </html>
