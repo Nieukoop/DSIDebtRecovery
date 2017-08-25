@@ -14,6 +14,12 @@
 		border-style:inset;
 }
 
+
+.fa{
+	font-size:3em; 
+	color: #347ab6
+}
+
 p{
 	font-size: 1.25em;
 }
@@ -23,8 +29,8 @@ body{
 }
 
 #contactus{
-	max-width:100%;
-	max-height:100%;
+	max-width:80%;
+	max-height:80%;
 }
 
 #abnlic{
@@ -198,8 +204,9 @@ li{
 }
 
 
+
 #mainlogo{
-	width: 9%;
+	width: 11%;
 	height:11em;
     transition-duration: 0.8s;
     transition-property: transform;

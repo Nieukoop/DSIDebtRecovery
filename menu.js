@@ -34,3 +34,4 @@ $(document).ready(function(){
 				$('#main').load('news.html');
 			});
 })
+
