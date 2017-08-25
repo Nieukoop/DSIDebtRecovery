@@ -1,0 +1,213 @@
+
+.container{
+	width:90%;
+	background-color: white;
+}
+
+
+#title{
+	max-width:80%;
+}
+
+#map{
+		width:70%;
+		height:25em;
+		border-style:inset;
+}
+
+#contactus{
+	max-width:100%;
+	max-height:100%;
+}
+
+#abnlic{
+	font-size:1em;
+}
+
+
+ul {
+    padding-left:0;
+}​
+
+#pcontact{
+	font-size: 1.5em;
+}
+
+.footerinfo{
+	text-align: center;
+}
+
+#copyright{
+	font-size: small;
+}
+
+#description {
+	row: 30;
+}
+
+input[type="text"]{
+	font-size:1.5em;
+}
+
+
+.form-group{
+	width:80%;
+	font-size: 1em;
+}
+
+#social{
+	position: absolute;
+    top: 1em;
+	right: 1em;
+	margin-right:10%;
+	
+}
+
+.mainPad{
+	padding-left:10%;
+	padding-right:10%
+}
+
+
+.spanbold{
+	font-weight: bold;
+}
+
+.btn-primary{
+	
+}
+
+.center{
+	margin:auto 0;
+	text-align: center;
+}
+
+.high-black{
+	position: fixed;
+    top: 1em;
+	color: black;
+}
+
+.high-white{
+	position: fixed;
+    top: 1em;
+	color: white;
+}
+
+body{
+	background-size:     cover;
+    background-repeat:   no-repeat;    
+	background-position: center center;   
+}
+
+.low-black{
+	position: fixed;
+    bottom: 1em;
+	color: black;
+}
+
+.col-md-8{
+}
+
+
+.banner{
+	max-width:100%;
+	height:100%;
+}
+
+#myCarousel{
+	width:75%;
+	margin:0 auto;
+	margin-bottom:2%;
+	border-style: groove;
+}
+
+
+.item{width:100%;
+	height:100%;
+}
+
+
+.carousel-inner{
+	max-width:100%;
+	max-height:100%;
+}
+
+.jumbotron{
+	text-align: center;
+	
+	padding: 2%;
+	margin-bottom: 1%;
+	font-family: arial;
+	background-color: white;
+	
+}
+
+.carousel-indicators .active{
+    background-color: black;
+}
+
+.carousel-indicators li {
+  background-color: #999;
+  background-color: rgba(70,70,70,.25);
+}
+
+.title{
+	font-style: italic;
+	font-weight: bold;
+	-webkit-text-stroke-width: 1%;
+   -webkit-text-stroke-color: black;
+   
+   
+}
+
+.btn{
+	font-weight: bold;
+	width:16%;
+	
+}
+
+.btn-group{
+	width:100%;
+}
+
+.btn:hover{
+		color: white;
+		background-color:grey;
+}
+
+#footemail{
+	color:white;
+}
+
+#mainlogo:hover{
+	transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+
+#mainlogo{
+	width: 9%;
+	height:11em;
+    transition-duration: 0.8s;
+    transition-property: transform;
+	
+}
+
+.servicerow{
+	
+}
+
+#blueFootCol{
+	background-color:#347ab6;
+	color:white;
+	padding-top:1%;
+}
+
+#bluerow{
+	background-color:#347ab6;
+	color:white;
+	border-style:solid;
+	
+	
+}

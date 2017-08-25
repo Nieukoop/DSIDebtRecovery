@@ -1,0 +1,38 @@
+<div class="row">
+	<div class="col-xs-2">
+				
+	</div>
+	<div class="col-xs-4">
+					
+		<h2>Contact Details</h2>
+		<p id="pcontact">
+		
+			<span class="glyphicon glyphicon-earphone"></span>&nbsp;&nbsp;&nbsp;0423 032 214<br>
+			<span class="	glyphicon glyphicon-print"></span>&nbsp;&nbsp;&nbsp;08 9377 7771<br>
+			<span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;&nbsp;<a href="mailto:dsi@westnet.com.au">dsi@westnet.com.au</a><br>
+			<span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;&nbsp;Beechboro LPO, P.O. Box 217, Beechboro WA 6063<br>
+		
+		<p>
+					
+	</div>
+	<div class="col-xs-4">
+		<div id="map"></div>
+
+			<script>
+			function myMap() {
+			  var myCenter = new google.maps.LatLng(-31.8704969,115.9455807);
+			  var mapCanvas = document.getElementById("map");
+			  var mapOptions = {center: myCenter, zoom: 15};
+			  var map = new google.maps.Map(mapCanvas, mapOptions);
+			  var marker = new google.maps.Marker({position:myCenter});
+			  marker.setMap(map);
+			}
+			</script>
+
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADqvaoKgOQp62zQ69AJQFZKD8lINlsaoU&callback=myMap"></script>
+	</div>
+	<div class="col-xs-2">
+						
+	</div>
+</div>
+
