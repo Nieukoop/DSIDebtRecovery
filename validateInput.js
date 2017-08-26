@@ -22,7 +22,5 @@ function validate(){
 
 	if (check === 1)
 		alert("Thank you for submitting your request " + form.input[0] + ". We will contact you shortly!");
-	
-
 
 }
