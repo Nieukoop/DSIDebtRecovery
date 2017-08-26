@@ -20,7 +20,9 @@
 
 .fa{
 	font-size:3em; 
-	color: #347ab6
+	color: #347ab6;
+	margin-right:2%;
+	float:right;
 }
 
 p{
@@ -254,7 +256,7 @@ li{
 
 
 #mainlogo{
-	width: 20%;
+	width: 35%;
 	height:11em;
     transition-duration: 1s;
     transition-property: transform;
