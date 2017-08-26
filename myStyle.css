@@ -183,14 +183,27 @@ li{
 	
 }
 
+.icon-bar{
+	background-color:white;
+}
 
-.navbar-inverse{
+.collapse, .navbar-toggle{
 	background-color: #347ab6;
+}
+
+.navbar-header{
 
 }
 
+.nav{
+
+	padding-left:2%;
+	padding-right:2%;
+}
+
 #home,#services, #news, #aboutus, #queries, #contactdetails, #signup, #login {
-	color:white;	
+	color:white;
+	background-color: 	#347ab6;
 }
 
 #home:hover, #services:hover, #news:hover, #aboutus:hover, #queries:hover, #contactdetails:hover, #signup:hover, #login:hover{
