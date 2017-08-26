@@ -79,8 +79,14 @@ input[type="text"]{
 }
 
 .mainPad{
-	padding-left:10%;
-	padding-right:10%
+	padding-left:8%;
+	padding-right:5%;
+	background-color:#347ab6;
+	color:white;
+	border-style:outset;
+	margin: 1%;
+	width:45%;
+	height:25em;
 }
 
 
@@ -138,7 +144,7 @@ body{
 }
 
 li{
-	font-size: 1.25em;
+	font-size: 1.1em;
 }
 
 .item{width:100%;
@@ -161,6 +167,20 @@ li{
 	
 }
 
+
+.navbar-inverse{
+	background-color: #347ab6;
+
+}
+
+#home,#services, #news, #aboutus, #queries, #contactdetails, #signup, #login {
+	color:white;	
+}
+
+#home:hover, #services:hover, #news:hover, #aboutus:hover, #queries:hover, #contactdetails:hover, #signup:hover, #login:hover{
+	text-decoration: underline;
+}
+
 .carousel-indicators .active{
     background-color: black;
 }
@@ -168,6 +188,10 @@ li{
 .carousel-indicators li {
   background-color: #999;
   background-color: rgba(70,70,70,.25);
+}
+
+#name{
+	font-size: 1em;
 }
 
 .title{
@@ -179,19 +203,15 @@ li{
    
 }
 
-.btn{
-	font-weight: bold;
-	width:16%;
-	
-}
-
-.btn-group{
-	width:100%;
-}
 
 .btn:hover{
 		color: white;
-		background-color:grey;
+		background-color:lightgrey;
+		color: black;
+}
+
+#description{
+	height:10em;
 }
 
 #footemail{
@@ -206,11 +226,15 @@ li{
 
 
 #mainlogo{
-	width: 11%;
+	width: 10%;
 	height:11em;
     transition-duration: 0.8s;
     transition-property: transform;
 	
+}
+
+.form-control{
+	border-style: inset;
 }
 
 .row{
@@ -224,10 +248,4 @@ li{
 	padding-top:1%;
 }
 
-#bluerow{
-	background-color:#347ab6;
-	color:white;
-	border-style:solid;
-	
-	
-}
+

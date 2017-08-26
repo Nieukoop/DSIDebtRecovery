@@ -17,6 +17,7 @@
 		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 		<script type="text/javascript" src="menu.js"> </script>
 		<script type="text/javascript" src="validateInput.js"> </script>
+		<script type="text/javascript" src="indexCSS.js"> </script>
 
 		
     </head>
@@ -44,14 +45,34 @@
 					<br>
 						<p id="abnlic">ABN:  186 526 653 17 | LIC#: 5372</p>
 					<br>
-						<div class="btn-group btn-group-lg">
-							<button id="home" type="home" class="btn btn-primary">Home</button>
-							<button id="services" type="services" class="btn btn-primary">Services</button>
-							<button id="news" type="news" class="btn btn-primary">News</button>
-							<button id="aboutus" type="button" class="btn btn-primary">About Us</button>
-							<button id="contactus" type="button" class="btn btn-primary">Queries</button>
-							<button id="contactdetails" type="button" class="btn btn-primary contactdetails">Contact Details</button>
-						</div>
+					<nav class="navbar navbar-inverse">
+					  <div class="container-fluid">
+					    <ul class="nav navbar-nav">
+					      <li ><a href="#"  id="home">Home</a></li>
+					      <li><a href="#" id="services">Services</a></li>
+					      <li><a href="#" id="news">News</a></li>
+					      <li><a href="#" id="aboutus">About Us</a></li>
+					      <li><a href="#" id="queries">Queries</a></li>
+					      <li><a href="#" id="contactdetails">Contact Info</a></li>
+					    </ul>
+					    <ul class="nav navbar-nav navbar-right">
+					      <li><a id="signup" href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+					      <li><a id="login" href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+					    </ul>
+					    <form class="navbar-form navbar-right">
+					      <div class="input-group">
+					        <input id="navSearch" type="text" class="form-control" placeholder="Search">
+					        <div class="input-group-btn">
+					          <button class="btn btn-default" type="submit">
+					            <i class="glyphicon glyphicon-search"></i>
+					          </button>
+					        </div>
+					      </div>
+					    </form>
+					    
+					  </div>
+
+					</nav>
 					<div id="social">
 						<a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook-square"  ></i></a>&nbsp;&nbsp;
 						<a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter-square"  ></i></a>&nbsp;&nbsp;
@@ -62,6 +83,7 @@
 		
 		<div id="main">
 			<div id="jsContent">
+
 			<div class="row">
 				<div class="col-xs-12">
 					
@@ -111,8 +133,8 @@
 			</div>
 			</div>
 			
-			<div id="bluerow" class="row">
-				<div class="col-xs-4 mainPad">
+			<div class="row">
+				<div class="col-xs-6 mainPad">
 					<h2>Our Clients</h2>
 					<ul>
 						<li>Accountants</li>
@@ -126,7 +148,7 @@
 						<li>Transport Companies - the list goes on...</li>
 					</ul>
 				</div>
-				<div class="col-xs-4 mainPad">
+				<div class="col-xs-6 mainPad">
 					<h2>If this sounds like you...</h2>
 					<ul>
 						<li>Provided a service/goods and haven't been paid.</li>
@@ -138,7 +160,9 @@
 					</ul>
 					
 				</div>
-				<div class="col-xs-4 mainPad">
+			</div>
+			<div class="row">
+				<div class="col-xs-6 mainPad">
 					<h2>We do not...</h2>
 					<ul>
 						<li>Have lock in contracts</li>
@@ -147,6 +171,9 @@
 						<br>
 						<p>NOTE: this does not apply to debts under $1,000.00 - refer Notice of Appointment</p>
 					</ul>
+				</div>
+				<div class="col-xs-6 mainPad">
+					
 				</div>
 			</div>
 			</div>

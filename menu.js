@@ -12,8 +12,8 @@ $(document).ready(function(){
 })
 
 $(document).ready(function(){
-			$('#contactus').click(function(){
-				$('#main').load('contactus.html');
+			$('#queries').click(function(){
+				$('#main').load('queries.html');
 			});
 })
 

@@ -1,21 +1,20 @@
 
-	
-</div>
 <div class="row">
 	<div class="col-xs-6">
-		<h2>Contact Us</h2>
 		<form>
+		<fieldset>
+		<legend>Queries</legend>
 		<div class="form-group">
 			<label for="name">Name:</label>
-			<input type="text" class="form-control " id="name" required>
+			<input type="text" class="form-control" placeholder="Your name" id="name" required>
 		  </div>
 		  <div class="form-group">
 			<label for="email">Email:</label>
-			<input type="email" class="form-control " id="email" required>
+			<input type="email" class="form-control" placeholder="email@domain.com" id="email" required>
 		  </div>
 		  <div class="form-group">
 			<label for="mobile">Mobile:</label>
-			<input type="number" class="form-control" id="mobile" min="1" maxlength="10">
+			<input type="number" class="form-control" placeholder="10 digit mobile number" id="mobile" min="1" maxlength="10">
 		  </div>
 		  <div class="form-group">
 			  <label for="subject">Subject:</label>
@@ -27,9 +26,10 @@
 		</div>
 		  <div class="form-group">
 			<label for="description">Description:</label>
-			<textarea class="form-control" id="description" required></textarea>
+			<textarea class="form-control" id="description" placeholder="Enter a short description" required></textarea>
 		  </div>
-		  <button onClick="validate()" type="submit" class="btn btn-default">Submit</button>
+		  <button onClick="validate()" type="submit" class="btn btn-default btn-sm">Submit</button>
+		  </fieldset>
 		</form>
 					
 	</div>
