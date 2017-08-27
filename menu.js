@@ -35,3 +35,9 @@ $(document).ready(function(){
 			});
 })
 
+$(document).ready(function(){
+			$('#login').click(function(){
+				$('#main').load('login.html');
+			});
+})
+

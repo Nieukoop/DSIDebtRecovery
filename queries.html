@@ -2,23 +2,23 @@
 <div class="row">
 	<div class="col-xs-12 col-sm-6">
 		<h2>Queries</h2>
-		<form id="query">
+		<form id="query" action="submitQuery.php" method="post">
 		<fieldset>
 		<div class="form-group">
 			<label for="name">Name:</label>
-			<input type="text" class="form-control" placeholder="Your name" id="name" required>
+			<input type="text" class="form-control" placeholder="Your name" id="name" name="name" required>
 		  </div>
 		  <div class="form-group">
 			<label for="email">Email:</label>
-			<input type="email" class="form-control" placeholder="email@domain.com" id="email" required>
+			<input type="email" class="form-control" placeholder="email@domain.com" id="email" name="email"required>
 		  </div>
 		  <div class="form-group">
 			<label for="mobile">Mobile:</label>
-			<input type="number" class="form-control" placeholder="10 digit mobile number" id="mobile" min="1" maxlength="10">
+			<input type="number" class="form-control" placeholder="10 digit mobile number" id="mobile" name="mobile" min="1" maxlength="10">
 		  </div>
 		  <div class="form-group">
 			  <label for="subject">Subject:</label>
-			  <select class="form-control " id="subject" required>
+			  <select class="form-control " id="subject" name="subject" required>
 				<option>General Enquiry</option>
 				<option>Feedback</option>
 				<option>Service Request</option>
@@ -26,7 +26,7 @@
 		</div>
 		  <div class="form-group">
 			<label for="description">Description:</label>
-			<textarea class="form-control" id="description" placeholder="Enter a short description" required></textarea>
+			<textarea class="form-control" id="description" placeholder="Enter a short description" name="description" required></textarea>
 		  </div>
 		  <button onClick="validate()" type="submit" class="btn btn-default btn-md">Submit</button>
 		  </fieldset>
